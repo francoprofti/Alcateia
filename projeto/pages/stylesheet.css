@@ -14,7 +14,7 @@
 }
 
 body{
-    margin: 0 auto;
+    margin: 0px auto;
     font-family: 'museo';
 }
 /*Faixa de posicinamento de conteúdo | margin: 0 auto; - CENTRALIZA A DIV*/
@@ -30,7 +30,7 @@ body{
     background-image: url("../imagens/home.jpg");
 
     /* Full height */
-    height: 100%; 
+    
 
     /* Center and scale the image nicely */
     background-position: center;
