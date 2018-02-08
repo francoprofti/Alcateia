@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: casper;
+    src: local(../fonts/Casper.ttf), url(../fonts/Casper.ttf);
+}
+*{
+    font-family: 'Didact Gothic';
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.logo{
+    height: 30px;
+    margin-top: 2px;
+    margin-bottom: -5px;
+}
+
+h1{
+    font-family:casper !important;
+    color:#eb5943 !important;
+}
+
+.navmenu{
+    margin-left:20px !important;
+    background-image: url("../imagens/animas/menunormal.svg");
+    -webkit-transition: background-image 0.2s ease-in;
+transition: background-image 0.2s ease-in;
+}
+
+.navmenu:hover{
+    -webkit-transition: background-image 0.2s ease-in;;
+    transition: background-image 0.2s ease-in;
+    background-image: url("../imagens/animas/menuescolhe.svg");
+}
+
+
+.row {
+    margin-bottom: 20%;
+}
+
+.home{
+    background-image: url('../imagens/capa.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 800px;
+}
+
+.fundadoras:hover .imagemfund {
+    opacity: 0.3;
+  }
+  
+.fundadoras:hover .textofund {
+    opacity: 1;
+  }
+
+  .imagemfund {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .textofund {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .fund {
+    background-color: #4fc197;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+
+  }
+
+.logofundo{
+    height: 1200px;
+    width: 40%;
+    background-image: url('../imagens/logofundo.svg');
+    background-size: 200%;
+    position: absolute;
+    margin-left: 60%;
+    z-index: -4;
+    background-repeat: no-repeat; 
+    opacity: 0.5;
+}
+
+  
