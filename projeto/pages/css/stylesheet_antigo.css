@@ -1,0 +1,288 @@
+
+@font-face {
+  font-family: 'casper';
+  src: url('../fonts/Casper.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'museo';
+  src: url('../fonts/MuseoSans_2.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    margin: 0px auto;
+    font-family: 'museo';
+}
+/*Faixa de posicinamento de conteúdo | margin: 0 auto; - CENTRALIZA A DIV*/
+.wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.home{
+
+    /* The image used */
+    background-image: url("../imagens/home.jpg");
+
+    /* Full height */
+    
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -56px;
+
+}
+
+h1{
+    font-family: casper;
+    font-size: 42;
+    color: #68190b;
+    font-weight: 900;
+}
+
+h2{
+    font-family: museo-sans;
+    font-size: 36;
+    color: #68190b;
+    font-weight: 900;
+}
+
+h3{
+    font-family: museo-sans;
+    font-size: 32;
+    color: #68190b;
+    font-weight: 900;
+}
+
+figcaption, h4{
+    font-family: Museo Sans;
+    font-size: 28;
+    color: #68190b;
+    font-weight: 900;
+}
+
+p{
+    font-family: Museo Sans;
+    font-size: 14px;
+    color: #6d6d6c;
+}
+
+a{
+    font-family: Museo Sans;
+    font-style: italic; 
+    color: #4fc197;
+    font-weight: 500px;
+}
+
+.knowMore{
+    font-family: Casper;
+    color: #    b43b26;
+    font-weight: bold;
+}
+
+.emphasisPreview{
+    font-family: Museo Sans;
+    font-size: 16px;
+    color: #6d6d6c;
+    font-weight: 100px;
+    font-style: italic;
+}
+
+select, textarea, input{
+    border-radius: 8px;
+    border-color: #68640b;
+    border-width: 1px;
+    height: 35px;
+    font-family: Museo Sans;
+    font-size: 16px;
+    color: #6d6d6c;
+}
+
+img div p{
+    color: #fff;
+}
+
+.shadow{
+    max-width: 1000px;
+    border: 50px solid #fff;
+    -webkit-box-shadow: 8px 8px 10px 0px rgba(50, 50, 50, 0.7);
+    -moz-box-shadow:    8px 8px 10px 0px rgba(50, 50, 50, 0.7);
+    box-shadow:         8px 8px 10px 0px rgba(50, 50, 50, 0.7);
+}
+
+header{
+    min-height: 50px;
+}
+
+ul li{
+    display: inline;
+    margin-right: 5%;
+}
+
+
+header ul li{
+    background-color: 
+}
+    
+.logo{
+    height: 30px;
+    margin-top: 2px;
+    margin-bottom: -5px;
+}
+
+
+
+.call{
+    background-color: #fff;
+    opacity: 0.8;
+    margin-top: -15%;
+    margin-left: 5%;
+    width: 80%;
+}
+
+.widthMax{
+    width: 100%;
+}
+
+.widthSquare{
+    width: 30%;
+    height: 30%;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.floatRight{
+    margin-left: 20%;
+    margin-right: 15px;   
+}
+    
+.displayFlex{
+    display: flex;
+}
+
+.foundersLine{
+    margin-top: -15%;
+}
+
+.foundersLine ul li{
+    background-color: #6d6d6c;
+    padding: 30px;
+    margin-right: 15px !important;
+}
+
+.imgfounder{
+    width:100%;
+    height: 150px;
+    background-color: #6d6d6c;
+    
+}
+
+.pShort{
+    width: 50%;
+}
+
+.spaceTop{
+    margin-top: 5%;
+}
+
+.spaceLeft{
+    margin-left: 5%;
+}
+
+.verticalCenter{
+    margin-top: 5%;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.textJustify{
+    text-align: justify;
+}
+
+.rectangleButton{
+    background-color: #B43B26;
+    height: 60px;
+    width: 95%;
+    padding-top:5px;
+}
+
+.rectangleButton p{
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.depoimentImg{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+select, input, textarea{
+    width: 250px;
+}
+
+textarea{
+    height: 100px;
+}
+
+.contact{
+    width: 400px;
+}
+
+#map{
+    width: 300px;
+    height: 400px;
+}
+
+.alcateia{
+     /* The image used */
+     background-image: url("../imagens/logofundogrande-01.png");
+
+     /* Full height */
+     
+ 
+     /* Center and scale the image nicely */
+     
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 250px bottom;
+ 
+
+}
+
+.listambi{
+ height: 300px;
+
+}
+
+.vcaindapode{
+    margin-top:100px;
+}
+
+.depoimentos{
+    margin-top:100px;
+}
+
+footer{
+    background-color: #B43B26;
+    height: 500px;
+    margin-top:100px;
+}
+.media{
+}
+
+/*
+cor CETA = FRANCO PASSOU elementos graficos background-color: #c36251;
+*/
