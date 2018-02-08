@@ -7,61 +7,51 @@
 
 @font-face {
   font-family: 'museo-sans';
-  src: url('../fonts/MuseoSans_2.otf') format('opentype');
+  src: url('../fonts/MuseoSans-300_0.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
-body{
-    margin: 0px;
-}
-
-/*Faixa de posicinamento de conteúdo | margin: 0 auto; - CENTRALIZA A DIV*/
-.wrapper{
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
 h1{
-    font-family: museo-sans;
+    font-family: museo-sans !important;
     font-size: 42;
-    color: #68190b;
-    font-weight: 900;
+    color: #68190b !important;
+    font-weight: 700 !important;
 }
 
 h2{
-    font-family: museo-sans;
-    font-size: 36;
-    color: #68190b;
-    font-weight: 900;
+    font-family: museo-sans !important;
+    font-size: 36 !important;
+    color: #68190b !important;
+    font-weight: 900 !important;
 }
 
 h3{
-    font-family: museo-sans;
-    font-size: 32;
-    color: #68190b;
-    font-weight: 900;
+    font-family: museo-sans !important;
+    font-size: 32 !important;
+    color: #68190b !important;
+    font-weight: 900 !important;
 }
 
-figcaption, h4{
-    font-family: museo-sans;
-    font-size: 28;
-    color: #68190b;
-    font-weight: 900;
+h4{
+    font-family: museo-sans !important;
+    font-size: 28 !important;
+    color: #68190b !important;
+    font-weight: 900 !important;
 }
 
 h5{
-    font-family: museo-sans;
-    font-size: 24;
-    color: #68190b;
-    font-weight: 900;
+    font-family: museo-sans !important;
+    font-size: 24 !important;
+    color: #68190b !important;
+    font-weight: 900 !important;
 }
 
-h6{
-    font-family: museo-sans;
-    font-size: 20;
-    color: #68190b;
-    font-weight: 900;
+figcaption, h6{
+    font-family: museo-sans !important;
+    font-size: 20 !important;
+    color: #68190b !important;
+    font-weight: 900 !important;
 }
 
 label, p{
@@ -71,10 +61,10 @@ label, p{
 }
 
 a{
-    font-family: museo-sans;
-    font-style: italic; 
-    color: #4fc197;
-    font-weight: 500px;
+    font-family: museo-sans !important;
+    font-style: italic; !important 
+    color: #4fc197 !important;
+    font-weight: 500px !important;
     }
 
 .knowMore{
@@ -85,13 +75,10 @@ a{
 
 .knowMoreButton{
     font-size: 24px;
+    text-decoration: none !important;
 }
 
-.typeA{
-    text-decoration: none;
-}
-
-.typeA:hover{
+.knowMoreButton:hover{
     color: #6d6d6c;
 }
 
@@ -111,6 +98,8 @@ select, textarea, input{
     font-family: museo-sans;
     font-size: 16px;
     color: #6d6d6c;
+    font-size: 14px;
+    width: 230px;
 }
 
 .shadow{
@@ -273,11 +262,6 @@ section{
     border-radius: 100%;
 }
 
-select, input, textarea{
-    font-size: 14px;
-    width: 250px;
-}
-
 textarea{
     height: 100px;
 }
@@ -357,13 +341,13 @@ aside li{
 }
 
 .depoimentImgSpace{
-    width: 140px;
-    height: 150px;
+    width: 170px;
+    height: 190px;
 }
 
 .depoimentTitle{
-    font-family: casper;
-    color: #6d6d6c;
+    font-family: casper !important;
+    color: #6d6d6c !important;
 }
 
 .depoimentSpace{
@@ -399,7 +383,7 @@ aside li{
 }
 
 .gray{
-    color: #6d6d6c;
+    color: #6d6d6c !important;
 }
 /*justify-content alinha na horizontal com FlexBo*/
 .centerIcons{
@@ -408,7 +392,7 @@ aside li{
 
 .typesImg{
     width: 550px;
-    height: 600px;
+    height: 650px;
 }
 
 #plans{
